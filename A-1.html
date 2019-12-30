@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media all and (min-width: 1200px){
+        body{
+            background: green;
+        }
+        .container{
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            top: 0;
+            
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        div span{
+            height: 30vh;
+            width: 23vw;
+            background: white;
+            margin: 1vw;
+            font-size: 10vh;
+            text-align: center;
+            line-height: 3em;
+            justify-content: center;
+            align-items: center;
+            align-content: space-around;
+        }
+        #s1,#s2,#s3,#s7,#s8,#s9{
+            animation: moveright 3s ease infinite;
+        }
+        #s4,#s5,#s6,#s10,#s11,#s12{
+            animation: moveleft 3s ease infinite;
+        }
+        @keyframes moveright {
+            0%{
+                transform: translateX(0);
+            }
+            50%{
+                transform: translateX(24vw);
+            }
+            100%{
+                transform: translateX(0vw);
+            }
+            
+        }
+        @keyframes moveleft {
+            0%{
+                transform: translateX(24vw);
+            }
+            50%{
+                transform: translateX(0vw);
+            }
+            100%{
+                transform: translateX(24vw);
+            }
+            
+        }
+        }
+        @media all and (min-width: 900px) and (max-width: 1200px){
+            body{
+            background: green;
+        }
+            .container{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100vh;
+                    width: 100vw;
+            }
+            div{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+            div span{
+                        box-sizing: border-box;
+                        height: 30vh;
+                        width: 31.4%;
+                        background: white;
+                        margin: 1vw;
+                        font-size: 10vh;
+                        text-align: center;
+                        line-height: 3em;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: space-around;
+            }
+            #s1,#s2,#s5,#s6,#s9,#s10{
+                animation: moveright 3s ease infinite;
+            }
+            #s3,#s4,#s7,#s8,#s11,#s12{
+                animation: moveleft 3s ease infinite;
+            }
+            @keyframes moveright {
+            0%{
+                transform: translateX(0);
+            }
+            50%{
+                transform: translateX(32.4vw);
+            }
+            100%{
+                transform: translateX(0vw);
+            }
+            
+        }
+        @keyframes moveleft {
+            0%{
+                transform: translateX(32.4vw);
+            }
+            50%{
+                transform: translateX(0);
+            }
+            100%{
+                transform: translateX(32.4vw);
+            }
+            
+        }
+        }       
+
+        @media all and (min-width: 501px) and (max-width: 900px){
+            body{
+            background: green;
+        }
+            .container{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100vh;
+                    width: 100vw;
+            }
+            div{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+            }
+            div span{
+                        height: 30vh;
+                        width: 48.1vw;
+                        background: white;
+                        margin: 1vw;
+                        font-size: 10vh;
+                        text-align: center;
+                        line-height: 3em;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: space-around;
+            }
+            
+            #s1,#s3,#s5,#s7,#s9,#s11{
+                animation: moveright 3s ease infinite;
+            }
+            #s2,#s4,#s6,#s8,#s10,#s12{
+                animation: moveleft 3s ease infinite;
+            }
+            @keyframes moveright {
+            0%{
+                transform: translateX(0);
+            }
+            50%{
+                transform: translateX(49vw);
+            }
+            100%{
+                transform: translateX(0vw);
+            }
+            
+        }
+        @keyframes moveleft {
+            0%{
+                transform: translateX(49vw);
+            }
+            50%{
+                transform: translateX(0vw);
+            }
+            100%{
+                transform: translateX(49vw);
+            }
+            
+        }
+        }
+        @media all and (max-width: 500px){
+            body{
+                background: green;
+            }
+            .container{
+            left: 0;
+            top: 0;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: space-around;
+        }
+        div span{
+            height: 30vh;
+            width: 94vw;
+            background: white;
+            margin: 2vw;
+            font-size: 10vh;
+            text-align: center;
+            align-content: center;
+            line-height: 3em;
+        }
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <span id="s1">A</span>
+        <span id="s2">B</span>
+        <span id="s3">C</span>
+        <span id="s4">D</span>
+        <span id="s5">E</span>
+        <span id="s6">F</span>
+        <span id="s7">G</span>
+        <span id="s8">H</span>
+        <span id="s9">I</span>
+        <span id="s10">J</span>
+        <span id="s11">K</span>
+        <span id="s12">L</span>
+    </div>
+</body>
+</html>
