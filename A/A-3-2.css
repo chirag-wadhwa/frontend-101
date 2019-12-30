@@ -1,0 +1,90 @@
+body{
+    background: white;
+}
+.outer{
+    perspective: 400px;
+}
+.center{   
+    box-sizing: border-box;
+    position: absolute;
+    left: 20vw;
+    top: 30vh;
+    height: 12vh;
+    width: 15vw;
+    background: red;
+    border: 2px solid black;
+    color: black;
+    font-size: 5vh;
+    text-align: center;
+    line-height: 2.5em;
+    color: white;
+    z-index: 1;
+    transition: 0.1s;
+
+}
+
+
+
+.top{
+    box-sizing: border-box;
+    position: absolute;
+    height: 20vh;
+    width: 15vw;
+    left: 20vw;
+    top: 10vh;
+    background: red;
+    border: 2px solid black;
+    transform-origin: bottom;
+    transform: rotateX(90deg);
+    transition: 0.1s;
+}
+.bottom{
+    box-sizing: border-box;
+    position: absolute;
+    height: 20vh;
+    width: 15vw;
+    left: 20vw;
+    top: 42vh;
+    background: red;
+    border: 2px solid black;
+    transform-origin: top;
+    transform: rotateX(-90deg);
+    transition: 0.1s;
+
+}
+.left{
+    box-sizing: border-box;
+    position: absolute;
+    height: 12vh;
+    width: 20vh;
+    left: calc(20vw - 20vh);
+    top: 30vh;
+    background: red;
+    border: 2px solid black;
+    transform-origin: right;
+    transform: rotateY(-90deg);
+    transition: 0.1s;
+
+}
+
+.right{
+    box-sizing: border-box;
+    position: absolute;
+    height: 12vh;
+    width: 20vh;
+    left: 35vw;
+    top: 30vh;
+    background: red;
+    border: 2px solid black;
+    transform-origin: left;
+    transform: rotateY(90deg);
+    transition: 0.1s;
+
+}
+.center:hover{
+    transform: translateX(50px) translateY(-40px);
+}
+
+.center:hover ~ div{
+    transform: rotateX(0) rotateY(0) translateX(50px) translateY(-40px);
+}

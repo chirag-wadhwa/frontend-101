@@ -1,0 +1,45 @@
+body{
+    background: white;
+}
+
+.button{
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+    perspective: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    height: 10vh;
+    width: 15vw;
+    background: red;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 5vh;
+    line-height: 2em;
+    transform-origin: 0 0;
+    transform-style: preserve-3d;
+    transform: rotateY(-30deg);
+    transition: 0.1s;
+}
+.right{  
+    height: 11.6vh;
+    width: 5vw;
+    background: red;
+    border: 2px solid black;
+    transform-origin: 0 -15vw;
+    transform: translateX(-24px) translateY(-7px) rotateY(60deg);
+    transition: 0.1s;
+}
+
+.left:hover ~ .right{
+    transform: rotateY(90deg);
+    opacity: 0;
+
+}
+.left:hover{
+    transform: rotateY(0);
+}
