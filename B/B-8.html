@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="B-8.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="heading">FORM VALIDATOR</div>
+        <div class="form">
+            <div class="first-name">
+                FIRST NAME
+                <span class="star">*</span><br>
+                <span class="red r1">!</span>
+                    <input class="first-name-space" type="text" name="first-name" value="Chirag" oninput="first_name()">
+            </div>
+            <div class="last-name">
+                LAST NAME            
+                <span class="star">*</span><br>
+                <span class="red r2">!</span>
+                <input class="last-name-space" type="text" name="last-name" value="Wadhwa" oninput="last_name()">
+            </div>
+            <div class="email">
+                E-MAIL
+                <span class="star">*</span><br>
+                <span class="red r3">!</span>
+                <input class="email-space" type="email" name="email" value="1234@gmail.com" oninput="email()">
+            </div>
+            <div class="phone">
+                PHONE
+                <span class="star">*</span><br>
+                <span class="red r4">!</span>
+                <input class="phone-space" type="tel" name="phone" value="9999999999" oninput="phone()">
+            </div>
+            <div class="password">
+                PASSWORD
+                <span class="star">*</span>
+                <span id="password_constraints"></span><br>
+                <span class="red r5">!</span>
+                <input class="password-space" type="password" name="password" value="********" oninput="password()">
+            </div>
+        
+            <div class="events">
+                Events for Participation 
+                <span class="star">*</span><br>
+                <select name="participation_events" class="events_select" onclick="events()">
+                    <option value="Event 1" selected>Event 1</option>
+                    <option value="Event 2">Event 2</option>
+                    <option value="Event 3">Event 3</option>        
+                </select>
+            </div>
+            <div class="gender-wrapper">
+                Gender<br>
+                <select name="gender" class="gender" onclick="gender()">
+                    <option value=""></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="year-wrapper">
+                Year of Study
+                <span class="star">*</span><br>
+                <select name="year_of_study" class="year" onclick="year()">
+                    <option value="First">First</option>
+                    <option value="Second">Second</option>
+                    <option value="Third">Third</option>
+                    <option value="Fourth">Fourth</option>
+                    <option value="Fifth">Fifth</option>
+                </select>
+            </div>
+            <div class="button" onclick="submit()">
+                    SUBMIT
+            </div>
+        </div>
+    </div>
+</body>
+<script src="B-8.js"></script>
+</html>
