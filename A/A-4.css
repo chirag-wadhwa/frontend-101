@@ -1,0 +1,133 @@
+.outer{
+    box-sizing: border-box;
+    position: absolute;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    height: 650px;
+    width: 300px;
+    left: 400px;
+    top: 30px;
+    background: black;
+    border: 5px solid #D2CBCB;
+    border-radius: 50px;}
+.inner1{
+    position: absolute;
+    box-sizing: border-box;
+    height: 630px;
+    width: 280px;   
+    background: #848181;
+    left: 410px;
+    top: 40px;
+    border: 5px solid black;
+    border-radius: 45px;
+}
+
+.inner21{
+    position: absolute;
+    box-sizing: border-box;
+    height: 590px;
+    width: 240px;   
+    background: green;
+    left: 430px;
+    top: 60px;
+    border-radius: 35px;
+    /* box-shadow: 10px 10px 10px black; */
+    box-shadow: 8px 8px 10px #000000;
+    transform: rotateZ(180deg);
+    background: radial-gradient(circle at 0 5%, rgba(236, 95, 149, 1),rgba(236, 95, 149, 0.8) 20%,rgba(236, 95, 149, 0) 50%), radial-gradient(circle at 210px 5px,rgba(95, 123, 236, 1),rgba(95, 123, 236, 1) 25%,rgba(95, 123, 236, 0)55%),radial-gradient(circle at -5% 45%, rgba(247, 105, 105, 1)10%,rgba(247, 105, 105, 0.6)35%,rgba(255, 102, 102, 0)60%),radial-gradient(circle at 115% 95%,rgba(255, 110, 66, 1)5%,rgba(255, 110, 66, 0.7)10%,rgba(232, 159, 109, 0)50%),radial-gradient(circle at 0% 100%,rgba(244, 200, 159, 1)5%,rgba(244, 200, 159, 1)10%,rgba(244, 200, 159, 0)70%);
+}
+.inner22{
+    position: absolute;
+    box-sizing: border-box;
+    height: 590px;
+    width: 240px;   
+    background: green;
+    left: 430px;
+    top: 60px;
+    border-radius: 35px;
+    /* box-shadow: 10px 10px 10px black; */
+    box-shadow: 8px 8px 10px #000000;
+    background: radial-gradient(circle at 0 5%, rgba(236, 95, 149, 1),rgba(236, 95, 149, 0.8) 20%,rgba(236, 95, 149, 0) 50%), radial-gradient(circle at 210px 5px,rgba(95, 123, 236, 1),rgba(95, 123, 236, 1) 25%,rgba(95, 123, 236, 0)55%),radial-gradient(circle at -5% 45%, rgba(247, 105, 105, 1)10%,rgba(247, 105, 105, 0.6)35%,rgba(255, 102, 102, 0)60%),radial-gradient(circle at 115% 95%,rgba(255, 110, 66, 1)5%,rgba(255, 110, 66, 0.7)10%,rgba(232, 159, 109, 0)50%),radial-gradient(circle at 0% 100%,rgba(244, 200, 159, 1)5%,rgba(244, 200, 159, 1)10%,rgba(244, 200, 159, 0)70%);
+}
+
+.volumeUp{
+    position: absolute;
+    height: 60px;
+    width: 5px;
+    background: #ABA9A9;
+    top: 280px;
+    left: 395px;
+}
+.volumeDown{
+    position: absolute;
+    height: 60px;
+    width: 5px;
+    background: #ABA9A9;
+    top:200px;
+    left: 395px;
+}
+.power{
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    background: #ABA9A9;
+    top: 120px;
+    left: 395px;
+}
+.right{
+    position: absolute;
+    height:90px;
+    width: 5px;
+    background: #ABA9A9;
+    top: 200px;
+    left: 700px;
+}
+
+.top{
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    background-color: black;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: absolute;
+    top: 59px;
+    left: 485px;
+    border-top-right-radius: -35px;
+}
+
+.leftCircle{
+    position: absolute;
+    left: 616px;
+    top: 61px;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    box-shadow: 5px -2px black;
+    transform: rotate(270deg);
+}
+.rightCircle{
+    position: absolute;
+    left: 476px;
+    top: 61px;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    box-shadow: 5px -2px black;
+    transform: rotate(340deg);
+}
+.patch{
+    position: absolute;
+    height: 4px;
+    width: 42px;
+    left: 520px;
+    top: 69px;
+    background: #524C4C;
+}
+.flash{
+    position: absolute;
+    left: 575px;
+    top: 69px;
+    height: 4px;
+    width: 4px;
+    border-radius: 200px;
+    background: blue;
+}
