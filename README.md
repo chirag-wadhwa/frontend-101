@@ -5,4 +5,4 @@
 
 
 #### [Task A1 – Trippy Grid](https://chirag-wadhwa.github.io/frontend-101/A/A-1.html)
-Oscillating divs in Task A2 along the viewport width together 
+Creating a responsive grid structure that oscillates along the viewport width together 
