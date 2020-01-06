@@ -1,0 +1,47 @@
+
+body{
+    background: #00bf8f;
+}
+.circle{
+    box-sizing: border-box;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: calc(50% - 200px);;
+    height: 400px;
+    width: 400px;
+    background: #4BC0C8;
+    border-radius: 200px;
+    border: 20px solid #136a8a;
+}
+
+.secondHand{
+    position: absolute;
+    height: 150px;
+    width: 4px;
+    background: black;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px + 200px);
+    transform-origin: bottom;
+}
+
+.minHand{
+    position: absolute;
+    height: 130px;
+    border-radius: 10px;
+    width: 6px;
+    background: black;
+    top: calc(50% - 130px);
+    left: calc(50%);
+    transform-origin: bottom; 
+}
+
+.hourHand{
+    position: absolute;
+    height: 100px;
+    width: 8px;
+    background: black;
+    border-radius: 20px;
+    top: calc(50% - 100px);
+    left: calc(50%);
+    transform-origin: bottom; 
+}
