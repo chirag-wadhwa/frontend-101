@@ -22,3 +22,9 @@ Making clock using vanilla Js
 Making clock using Canvas API
 #### [Task B2 – Multiple Select](https://chirag-wadhwa.github.io/frontend-101/B/B-2.html)
 List of items which can select all items between last checked and current item if selected by pressing "shift key"  
+#### [Task B3 – FrontEnd Tech](https://chirag-wadhwa.github.io/frontend-101/B/B-3.html)
+To create a list which can add remove items with help of local storage to retain data when reloaded
+#### [Task B4 - Follow Along Cards](https://chirag-wadhwa.github.io/frontend-101/B/B-4.html)
+Create a simple navigation menu containing 3-4 items with smooth and subtle animations
+#### [Task B5 – Create a basic chrome extension](https://chirag-wadhwa.github.io/frontend-101/B)
+Creating a chrome extension which console logs "Hurray" when you visit DVM sites particularly [OASIS](https://www.bits-oasis.org/2018main/), [BOSM](https://www.bits-bosm.org/), [APOGEE](https://bits-apogee.org/2019intro/)
