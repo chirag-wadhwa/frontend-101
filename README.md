@@ -18,3 +18,7 @@ Replicating iphoneX using HTML and CSS
 
 #### [Task B1-1 – Clock](https://chirag-wadhwa.github.io/frontend-101/B/B-1-1.html)
 Making clock using vanilla Js
+#### [Task B1-2 – Clock](https://chirag-wadhwa.github.io/frontend-101/B/B-1-2.html)
+Making clock using Canvas API
+#### [Task B2 – Multiple Select](https://chirag-wadhwa.github.io/frontend-101/B/B-2.html)
+List of items which can select all items between last checked and current item if selected by pressing "shift key"  
