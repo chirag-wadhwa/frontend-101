@@ -26,5 +26,5 @@ List of items which can select all items between last checked and current item i
 To create a list which can add remove items with help of local storage to retain data when reloaded
 #### [Task B4 - Follow Along Cards](https://chirag-wadhwa.github.io/frontend-101/B/B-4.html)
 Create a simple navigation menu containing 3-4 items with smooth and subtle animations
-#### [Task B5 – Create a basic chrome extension](https://chirag-wadhwa.github.io/frontend-101/B)
-Creating a chrome extension which console logs "Hurray" when you visit DVM sites particularly [OASIS](https://www.bits-oasis.org/2018main/), [BOSM](https://www.bits-bosm.org/), [APOGEE](https://bits-apogee.org/2019intro/)
+#### [Task B5 – Create a basic chrome extension](https://chirag-wadhwa.github.io/frontend-101/B/Chrome Extension)
+Creating a chrome extension which console logs a message when you visit DVM sites particularly [OASIS](https://bits-oasis.org/), [BOSM](https://www.bits-bosm.org/), [APOGEE](https://www.bits-apogee.org/)
