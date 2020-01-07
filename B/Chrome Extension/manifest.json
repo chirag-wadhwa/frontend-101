@@ -1,0 +1,12 @@
+{
+	"name": "B-5",
+	"version": "1.0",
+	"description": "Creating a basic chrome extension",
+	"manifest_version": 2,
+	"content_scripts":[
+		{  
+			"matches":["https://bits-oasis.org/" ,"https://www.bits-apogee.org/" ,"https://bits-bosm.org/"],
+			"js": ["B-5.js"]
+        }
+    ]    
+}
