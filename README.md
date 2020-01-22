@@ -30,6 +30,8 @@ Creating a simple navigation menu containing 3-4 items with smooth and subtle an
 Creating a chrome extension which console logs a message when you visit DVM sites particularly [OASIS](https://bits-oasis.org/), [BOSM](https://www.bits-bosm.org/), [APOGEE](https://www.bits-apogee.org/)
 #### [Task B6 - Github Profile Fetcher](https://chirag-wadhwa.github.io/frontend-101/B/B-6.html)
 using Fetch API , XMLHttpRequest and jQuery/AJAX to print a GitHub user's public profile data
+#### [Task B7 - Game Time](https://chirag-wadhwa.github.io/frontend-101/B/B-7.html)
+replicate the hit game 2048, using only vanilla JS
 #### [Task B8 - Form Validator](https://chirag-wadhwa.github.io/frontend-101/B/B-8.html)
 Making a simple form that contains somple text-fields like Name*, Email*, Phone*, Password* with constraints on password
 #### [Task B9 - Custom Carousel](https://chirag-wadhwa.github.io/frontend-101/B/B-9.html)
