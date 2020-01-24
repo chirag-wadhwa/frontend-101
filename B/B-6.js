@@ -57,6 +57,9 @@ function jQuery_AJAX(){
         error: function(xhr,status,error){
             if(xhr.statusText == "Not Found"){
                 document.getElementsByClassName("error_text")[0].style.opacity = "1";
+                image.style.opacity = "0";
+                _name.style.opacity = "0";
+                description.style.opacity = "0";
             }
         }
     });
