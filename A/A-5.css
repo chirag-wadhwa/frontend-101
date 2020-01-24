@@ -1,0 +1,120 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+.svg_main{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    stroke-width: 4;
+}
+.D{
+    stroke: white;
+    animation: lineD 1s ease-in-out 1; 
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+}
+.Dtemp{
+    animation: animationD 2s ease 1;
+    stroke: white;
+    fill: white;
+}
+.V{
+    stroke: #ff3f8a;
+    animation: lineV 1.5s ease-in-out 1;
+    stroke-dasharray: 1860;
+    stroke-dashoffset: 1860;
+}
+.Vtemp{
+    animation: animationV 2.5s ease 1;
+    stroke: #ff3f8a;
+    fill: #ff3f8a;
+}
+.M{
+    stroke: white;
+    animation: lineM 2s ease-in-out 1;
+    stroke-dasharray: 1930;
+    stroke-dashoffset: 1930;
+}
+.Mtemp{
+    animation: animationM 3s ease 1;
+    stroke: white;
+    fill: white;
+}
+@keyframes animationD{
+    0%{
+        opacity: 0; 
+    }
+    50%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes animationV{
+    0%{
+        opacity: 0; 
+    }
+    60%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes animationM{
+    0%{
+        opacity: 0; 
+    }
+    66.666%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes lineD{
+    0%{
+        stroke-dashoffset: 3000;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes lineV{
+    0%{
+        opacity: 0;
+        stroke-dashoffset: 1860;
+    }
+    32%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 1;
+        stroke-dashoffset: 1860;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes lineM{
+    0%{
+        opacity: 0;
+        stroke-dashoffset: 1930;
+    }
+    49%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        stroke-dashoffset: 1930;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
