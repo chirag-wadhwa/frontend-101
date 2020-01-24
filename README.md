@@ -12,6 +12,8 @@ Light Switch
 Box Swished Open
 #### [Task A4 – The X Factor](https://chirag-wadhwa.github.io/frontend-101/A/A-4.html)
 Replicating iphoneX using HTML and CSS
+#### [Task A5 – DVM Logo](https://chirag-wadhwa.github.io/frontend-101/A/A-5.html)
+Animate this version of the DVM logo using CSS SVG line animations.
 
 ## SET-B
 ### HTML, CSS and Javascript
